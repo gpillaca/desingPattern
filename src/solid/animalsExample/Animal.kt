@@ -1,4 +1,4 @@
-package solid.animals
+package solid.animalsExample
 
 open class Animal {
     open fun sleep() {

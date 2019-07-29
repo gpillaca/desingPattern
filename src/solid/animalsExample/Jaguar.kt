@@ -1,4 +1,4 @@
-package solid.animals
+package solid.animalsExample
 
 data class Jaguar(val age: Int, val weight: Float): Animal(), IFelineWild {
 

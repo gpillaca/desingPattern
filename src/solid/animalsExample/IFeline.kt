@@ -1,4 +1,4 @@
-package solid.animals
+package solid.animalsExample
 
 interface IFeline {
     fun hunt()
