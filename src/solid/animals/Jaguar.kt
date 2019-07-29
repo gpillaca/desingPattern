@@ -1,6 +1,6 @@
 package solid.animals
 
-data class Jaguar(val age: Int, val weight: Float): Animal(), IFeline {
+data class Jaguar(val age: Int, val weight: Float): Animal(), IFelineWild {
 
     override fun sleep() {
         println("Jaguar sleep")
@@ -12,10 +12,6 @@ data class Jaguar(val age: Int, val weight: Float): Animal(), IFeline {
 
     override fun hunt() {
         println("Jaguar hunts")
-    }
-
-    override fun meow() {
-        throw UnsupportedOperationException("Jaguar doesn't meow")
     }
 
     override fun roar() {
