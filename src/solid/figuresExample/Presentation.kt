@@ -1,4 +1,4 @@
-package solid
+package solid.figuresExample
 
 class Presentation {
     fun print(rectangle: Rectangle) {

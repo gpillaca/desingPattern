@@ -1,4 +1,6 @@
-package solid
+package solid.figuresExample
+
+import solid.figuresExample.IFigure
 
 data class Triangle(val base: Float, val height: Float): IFigure {
     override fun toString(): String {

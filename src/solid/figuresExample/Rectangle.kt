@@ -1,4 +1,6 @@
-package solid
+package solid.figuresExample
+
+import solid.figuresExample.IFigure
 
 data class Rectangle(val base: Float, val height: Float): IFigure {
 

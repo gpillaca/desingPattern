@@ -1,4 +1,4 @@
-package solid
+package solid.figuresExample
 
 fun main(args: Array<String>) {
     val rectangle = Rectangle(15f, 10f)
