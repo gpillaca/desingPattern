@@ -1,12 +1,12 @@
 package solid
 
-data class Rectangle(val base: Float, val height: Float) {
+data class Rectangle(val base: Float, val height: Float): IFigure {
 
     override fun toString(): String {
         return "Rectangle -> Base: $base, Height: $height"
     }
 
-    fun area(): Float {
+    override fun area(): Float {
         return base * height
     }
 }
